@@ -7,7 +7,7 @@ import Vue from "vue";
 import Component from "vue-class-component";
 
 @Component
-export default class ContactUs extends Vue {}
+export default class Banner extends Vue {}
 </script>
 
 <style scoped></style>

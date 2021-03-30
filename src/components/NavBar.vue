@@ -1,8 +1,10 @@
-<template></template>
+<template>
+  <b-navbar></b-navbar>
+</template>
 
 <script lang="ts">
 import Vue from "vue";
-import { Component, Vue } from "vue-property-decorator";
+import { Component } from "vue-property-decorator";
 
 @Component
 export default class NavBar extends Vue {}
