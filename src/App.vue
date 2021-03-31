@@ -3,10 +3,13 @@
     <NavBar />
     <main>
       <Banner />
-      <Features />
+      <!--      <Story />-->
+      <Gameplay />
+      <!--      <Art />-->
+      <!--      <Reviews />-->
       <ContactUs />
-      <Footer />
     </main>
+    <Footer />
   </div>
 </template>
 
@@ -18,7 +21,7 @@ import NavBar from "@/components/NavBar.vue";
 import ContactUs from "@/components/ContactUs.vue";
 import Banner from "@/components/Banner.vue";
 import Footer from "@/components/Footer.vue";
-import Features from "@/components/Features.vue";
+import Gameplay from "@/components/Gameplay.vue";
 
 @Component({
   components: {
@@ -27,7 +30,7 @@ import Features from "@/components/Features.vue";
     ContactUs,
     Banner,
     Footer,
-    Features,
+    Gameplay,
   },
 })
 export default class App extends Vue {}

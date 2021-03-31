@@ -70,13 +70,6 @@ $card-header-shadow: none;
 $card-border: 1px solid $base-color-light;
 $card-header-border-bottom-color: $base-color-light;
 
-/* Table: Bulma override */
-$table-cell-border: 1px solid $white-bis;
-
-/* Table: specifics */
-$table-avatar-size: $size-base * 1.5;
-$table-avatar-size-mobile: 25vw;
-
 /* Form */
 $checkbox-border: 1px solid $base-color;
 
@@ -92,18 +85,12 @@ $modal-card-width: 40vw;
 $modal-card-width-mobile: 90vw;
 $modal-card-foot-background-color: $white-ter;
 
-/* Notification: Bulma override */
-$notification-padding: $default-padding * 0.75 $default-padding;
-
 /* Footer: Bulma override */
 $footer-background-color: $white;
 $footer-padding: $default-padding * 0.33 $default-padding;
 
 /* Footer: specifics */
 $footer-logo-height: $size-base * 2;
-
-/* Progress: Bulma override */
-$progress-bar-background-color: $grey-lighter;
 
 /* Icon: specifics */
 $icon-update-mark-size: $size-base * 0.5;

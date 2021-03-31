@@ -17,9 +17,13 @@ import Vue from "vue";
 import Component from "vue-class-component";
 
 @Component
-export default class Features extends Vue {
+export default class Gameplay extends Vue {
   carouselItems = [
-    { title: "Story", description: "a description about the story", image: "" },
+    {
+      title: "Clicking",
+      description: "a description about the clicking mechanic",
+      image: "",
+    },
   ];
 }
 </script>
