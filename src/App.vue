@@ -3,11 +3,10 @@
     <NavBar />
     <main>
       <Banner />
-      <!--      <Story />-->
+      <Story />
       <Gameplay />
-      <!--      <Art />-->
-      <!--      <Reviews />-->
-      <ContactUs />
+      <Music />
+      <ComingSoon />
     </main>
     <Footer />
   </div>
@@ -18,19 +17,23 @@ import Vue from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Component from "vue-class-component";
 import NavBar from "@/components/NavBar.vue";
-import ContactUs from "@/components/ContactUs.vue";
+import Music from "@/components/Music.vue";
 import Banner from "@/components/Banner.vue";
 import Footer from "@/components/Footer.vue";
 import Gameplay from "@/components/Gameplay.vue";
+import ComingSoon from "@/components/ComingSoon.vue";
+import Story from "@/components/Story.vue";
 
 @Component({
   components: {
     HelloWorld,
     NavBar,
-    ContactUs,
+    Music,
     Banner,
     Footer,
     Gameplay,
+    ComingSoon,
+    Story,
   },
 })
 export default class App extends Vue {}
