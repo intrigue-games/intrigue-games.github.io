@@ -24,4 +24,4 @@ export default class Features extends Vue {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
