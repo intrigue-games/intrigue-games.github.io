@@ -3,9 +3,9 @@
     <NavBar />
     <main>
       <Banner />
-      <img alt="Vue logo" src="./assets/logo.png" />
-      <HelloWorld msg="Welcome to Your Vue.js App" />
+      <Features />
       <ContactUs />
+      <Footer />
     </main>
   </div>
 </template>
@@ -17,6 +17,8 @@ import Component from "vue-class-component";
 import NavBar from "@/components/NavBar.vue";
 import ContactUs from "@/components/ContactUs.vue";
 import Banner from "@/components/Banner.vue";
+import Footer from "@/components/Footer.vue";
+import Features from "@/components/Features.vue";
 
 @Component({
   components: {
@@ -24,6 +26,8 @@ import Banner from "@/components/Banner.vue";
     NavBar,
     ContactUs,
     Banner,
+    Footer,
+    Features,
   },
 })
 export default class App extends Vue {}

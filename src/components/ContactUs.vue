@@ -1,5 +1,9 @@
 <template>
-  <section></section>
+  <section class="hero is-info">
+    <div class="hero-body">
+      <h1 class="title">Contact Us</h1>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">
