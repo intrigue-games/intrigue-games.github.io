@@ -1,15 +1,21 @@
 <template>
-  <b-carousel indicator indicator-mode="click" indicator-style="is-dots">
-    <b-carousel-item
-      v-for="(carouselItem, index) in carouselItems"
-      :key="index"
-    >
-      <section>
-        <h1 class="title">{{ carouselItem.title }}</h1>
-        <p class="content">{{ carouselItem.description }}</p>
-      </section>
-    </b-carousel-item>
-  </b-carousel>
+  <div>
+    <h1 class="title">Gameplay</h1>
+    <b-carousel indicator indicator-mode="click" indicator-style="is-dots">
+      <b-carousel-item
+        v-for="(carouselItem, index) in carouselItems"
+        :key="index"
+      >
+        <section class="columns">
+          <div class="column is-offset-3 is-6">
+            <b-image :src="carouselItem.image"></b-image>
+            <h1 class="subtitle">{{ carouselItem.title }}</h1>
+            <p class="content">{{ carouselItem.description }}</p>
+          </div>
+        </section>
+      </b-carousel-item>
+    </b-carousel>
+  </div>
 </template>
 
 <script lang="ts">
@@ -22,10 +28,19 @@ export default class Gameplay extends Vue {
     {
       title: "Clicking",
       description: "a description about the clicking mechanic",
-      image: "",
+      image: require("@/assets/android.png")
     },
+    {
+      title: "Playing",
+      description: "you can play this game",
+      image: require("@/assets/apple.png")
+    }
   ];
 }
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.title {
+  text-align: center;
+}
+</style>
