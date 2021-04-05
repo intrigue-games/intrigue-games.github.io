@@ -33,13 +33,19 @@ import Story from "@/components/Story.vue";
     Footer,
     Gameplay,
     ComingSoon,
-    Story,
-  },
+    Story
+  }
 })
 export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+.anchor {
+  display: block;
+  position: relative;
+  top: -52px;
+  visibility: hidden;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

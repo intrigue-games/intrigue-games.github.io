@@ -1,7 +1,7 @@
 <template>
   <section class="hero is-primary">
     <div class="columns">
-      <div class="hero-body column is-4 is-offset-2">
+      <div class="hero-body column is-4 is-offset-1">
         <h1 class="title">Xal's Path</h1>
         <h2 class="subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -10,8 +10,11 @@
           nisl nunc mi. Arcu dui vivamus arcu felis bibendum.
         </h2>
       </div>
-      <div class="column is-3 is-offset-3">
-        <p>Trailer goes here</p>
+      <div class="column is-5 is-offset-1">
+        <h1 class="subtitle">Game Trailer</h1>
+        <video-embed
+          src="https://www.youtube.com/watch?v=ZZ5LpwO-An4"
+        ></video-embed>
       </div>
     </div>
   </section>
