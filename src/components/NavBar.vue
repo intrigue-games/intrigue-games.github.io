@@ -1,13 +1,13 @@
 <template>
-  <b-navbar :fixed-top="true">
+  <b-navbar :fixed-top="true" :transparent="true">
     <template #brand>
       <b-navbar-item class="brand" href="#">
-        <img style="max-height: 52px;" src="@/assets/logo-crop.png" />
+        <img style="max-height: 52px" src="@/assets/logo-crop.png" />
       </b-navbar-item>
     </template>
     <template #start>
-      <h1>[twitter icon]</h1>
-      <h1>[YouTube icon]</h1>
+      <b-navbar-item href="#"> [twitter icon] </b-navbar-item>
+      <b-navbar-item href="#"> [YouTube icon] </b-navbar-item>
     </template>
     <template #end>
       <b-navbar-item href="#story">Story</b-navbar-item>
@@ -28,7 +28,7 @@ export default class NavBar extends Vue {}
 
 <style scoped>
 .brand {
-  margin-right: 1rem;
-  padding: 0;
+  /*margin-right: 1rem;*/
+  /*padding: 0;*/
 }
 </style>
