@@ -7,7 +7,7 @@
         <div class="column">
           <!--          <b-image class="image" :src="require('@/assets/story.png')"></b-image>-->
           <img
-            :src="require('@/assets/story.png')"
+            :src="require('@/assets/story-animation.gif')"
             alt="Xal at his desk"
             class="image"
           />

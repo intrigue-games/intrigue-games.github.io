@@ -1,7 +1,10 @@
 <template>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-primary is-fullheight bg-image">
+    <div class="hero-head">
+      <div class="bg-image"></div>
+    </div>
     <div class="hero-body">
-      <div class="columns is-vcentered">
+      <div class="columns is-vcentered banner-content">
         <div class="column">
           <div class="columns">
             <div class="column is-one-quarter"></div>
@@ -9,10 +12,9 @@
               <h1 class="title">Xal's Path</h1>
               <h2 class="subtitle">Subtitle</h2>
               <p class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel
-                eros donec ac odio tempor orci dapibus. A diam sollicitudin
-                tempor id eu nisl nunc mi. Arcu dui vivamus arcu felis bibendum.
+                Xal's Path is a story-driven clicker game where you, a stranger,
+                are tasked to help Xal rid the realm of a terrible blight and
+                uncover the deceitful truth behind it.
               </p>
             </div>
             <div class="column is-one-quarter"></div>
@@ -26,6 +28,7 @@
         </div>
       </div>
     </div>
+    <div class="hero-foot"></div>
   </section>
 </template>
 
@@ -38,6 +41,10 @@ export default class Banner extends Vue {}
 </script>
 
 <style scoped>
+.bg-image {
+  background-image: image("../assets/bg-banner.png");
+  z-index: 100;
+}
 .title {
   margin-bottom: 2rem;
 }
