@@ -1,8 +1,8 @@
 <template>
-  <section class="hero is-info bg-image">
+  <section class="hero is-info bg-image is-medium">
     <div class="anchor" id="comingsoon"></div>
     <div class="hero-body">
-      <h1 class="title">Coming Soon!</h1>
+      <h1 class="title has-text-centered">Coming Soon!</h1>
       <div class="columns">
         <div class="column is-4 is-offset-4 columns">
           <div class="column is-5">
@@ -37,8 +37,5 @@ export default class ComingSoon extends Vue {}
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center top;
-}
-.title {
-  text-align: center;
 }
 </style>

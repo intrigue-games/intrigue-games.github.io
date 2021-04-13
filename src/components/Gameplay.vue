@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-image">
+  <div class="bg-image gameplay">
     <div class="anchor" id="gameplay"></div>
-    <h1 class="title">Gameplay</h1>
+    <h1 class="title is-4">Gameplay</h1>
     <b-carousel indicator indicator-mode="click" indicator-style="is-dots">
       <b-carousel-item
         v-for="(carouselItem, index) in carouselItems"
         :key="index"
       >
-        <section class="columns">
-          <div class="column is-offset-4 is-4">
+        <section class="columns is-centered">
+          <div class="column">
             <b-image :src="carouselItem.image" class="my-carousel"></b-image>
             <h1 class="subtitle">{{ carouselItem.title }}</h1>
             <p class="content">{{ carouselItem.description }}</p>
@@ -33,35 +33,28 @@ export default class Gameplay extends Vue {
     {
       title: "Clicking",
       description: "A description about the clicking mechanic",
-      image: gameplayclick
+      image: gameplayclick,
     },
     {
       title: "Buffs",
       description: "A description about the buffs mechanic",
-      image: gameplaybuffs
+      image: gameplaybuffs,
     },
     {
       title: "Rewards",
       description: "A description about the Rewards mechanic",
-      image: gameplayrewards
+      image: gameplayrewards,
     },
     {
       title: "Shop",
       description: "A description about the Shop mechanic",
-      image: gameplayshop
-    }
+      image: gameplayshop,
+    },
   ];
 }
 </script>
 
 <style scoped lang="scss">
-.my-carousel {
-  display: block;
-  max-height: 928px;
-  max-width: 423px;
-  text-align: center;
-  margin: auto;
-}
 .bg-image {
   background-image: url("../assets/bg-gameplay.png");
   background-repeat: no-repeat;
@@ -76,5 +69,19 @@ export default class Gameplay extends Vue {
 .subtitle,
 .content {
   text-align: center;
+}
+</style>
+
+<style lang="scss">
+.gameplay .my-carousel {
+  display: block;
+  max-height: 928px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.gameplay .carousel > .carousel-items {
+  margin: auto;
+  width: 75%;
 }
 </style>

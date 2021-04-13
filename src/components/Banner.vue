@@ -6,7 +6,8 @@
           <div class="columns">
             <div class="column is-one-quarter"></div>
             <div class="column">
-              <h1 class="title">Xal's Path</h1>
+              <img src="../assets/XalTitle.png" alt="Xal title" class="image" />
+              <!--              <h1 class="title">Xal's Path</h1>-->
               <h2 class="subtitle">Subtitle</h2>
               <p class="content">
                 Xal's Path is a story-driven clicker game where you, a stranger,
@@ -21,6 +22,7 @@
           <video-embed
             class="has-text-centered my-video"
             src="https://www.youtube.com/watch?v=ZZ5LpwO-An4"
+            css="embed-responsive-21by9"
           ></video-embed>
         </div>
       </div>
@@ -36,14 +38,16 @@ import Component from "vue-class-component";
 export default class Banner extends Vue {}
 </script>
 
-<style scoped>
-.my-video {
-  margin: auto;
-}
+<style scoped lang="scss">
 .bg-image {
-  background-image: url("../assets/bg-banner.png");
+  background-image: url("../assets/bg-coming-soon.png");
 }
-.title {
-  margin-bottom: 2rem;
+</style>
+
+<style lang="scss">
+iframe {
+  margin: auto;
+  height: 318px;
+  width: 550px;
 }
 </style>
