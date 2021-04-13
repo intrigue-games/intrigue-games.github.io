@@ -65,7 +65,7 @@ export default class Gameplay extends Vue {
 .bg-image {
   background-image: url("../assets/bg-gameplay.png");
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center top;
   background-color: #a6843c;
 }
