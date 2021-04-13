@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-image">
     <div class="anchor" id="gameplay"></div>
     <h1 class="title">Gameplay</h1>
     <b-carousel indicator indicator-mode="click" indicator-style="is-dots">
@@ -9,7 +9,7 @@
       >
         <section class="columns">
           <div class="column is-offset-4 is-4">
-            <b-image :src="carouselItem.image"></b-image>
+            <b-image :src="carouselItem.image" class="my-carousel"></b-image>
             <h1 class="subtitle">{{ carouselItem.title }}</h1>
             <p class="content">{{ carouselItem.description }}</p>
           </div>
@@ -55,6 +55,20 @@ export default class Gameplay extends Vue {
 </script>
 
 <style scoped lang="scss">
+.my-carousel {
+  display: block;
+  max-height: 928px;
+  max-width: 423px;
+  text-align: center;
+  margin: auto;
+}
+.bg-image {
+  background-image: url("../assets/bg-gameplay.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  background-color: #a6843c;
+}
 .content {
   margin-bottom: 2rem;
 }

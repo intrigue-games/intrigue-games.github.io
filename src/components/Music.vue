@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info">
+  <section class="hero is-info bg-image">
     <div class="anchor" id="music"></div>
     <div class="hero-body">
       <h1 class="title">Music</h1>
@@ -25,6 +25,12 @@ export default class Music extends Vue {
 </script>
 
 <style scoped>
+.bg-image {
+  background-image: url("../assets/bg-music.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+}
 .title {
   text-align: center;
 }

@@ -1,8 +1,5 @@
 <template>
   <section class="hero is-primary is-fullheight bg-image">
-    <div class="hero-head">
-      <div class="bg-image"></div>
-    </div>
     <div class="hero-body">
       <div class="columns is-vcentered banner-content">
         <div class="column">
@@ -20,15 +17,14 @@
             <div class="column is-one-quarter"></div>
           </div>
         </div>
-        <div class="column">
+        <div class="column is-6">
           <video-embed
-            class="has-text-centered"
+            class="has-text-centered my-video"
             src="https://www.youtube.com/watch?v=ZZ5LpwO-An4"
           ></video-embed>
         </div>
       </div>
     </div>
-    <div class="hero-foot"></div>
   </section>
 </template>
 
@@ -41,9 +37,11 @@ export default class Banner extends Vue {}
 </script>
 
 <style scoped>
+.my-video {
+  margin: auto;
+}
 .bg-image {
-  background-image: image("../assets/bg-banner.png");
-  z-index: 100;
+  background-image: url("../assets/bg-banner.png");
 }
 .title {
   margin-bottom: 2rem;
