@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info bg-image is-medium">
+  <section class="hero is-info bg-image is-large">
     <div class="anchor" id="comingsoon"></div>
     <div class="hero-body">
       <h1 class="title has-text-centered">Coming Soon!</h1>
@@ -35,7 +35,7 @@ export default class ComingSoon extends Vue {}
 .bg-image {
   background-image: url("../assets/bg-coming-soon.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-position: center top;
 }
 </style>

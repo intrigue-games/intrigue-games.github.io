@@ -21,7 +21,7 @@
         <div class="column is-6">
           <video-embed
             class="has-text-centered my-video"
-            src="https://www.youtube.com/watch?v=ZZ5LpwO-An4"
+            src="https://www.youtube.com/watch?v=r0CQO2x3VGY&list=FLm9PjqjdwqIX9b2aiDxIoiA&index=7"
             css="embed-responsive-21by9"
           ></video-embed>
         </div>
@@ -40,7 +40,8 @@ export default class Banner extends Vue {}
 
 <style scoped lang="scss">
 .bg-image {
-  background-image: url("../assets/bg-coming-soon.png");
+  background-image: url("../assets/banner.png");
+  background-size: 100% 100%;
 }
 </style>
 

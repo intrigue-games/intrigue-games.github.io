@@ -1,10 +1,13 @@
 <template>
-  <section class="hero is-info bg-image is-medium">
+  <section class="hero bg-image is-large">
     <div class="anchor" id="music"></div>
     <div class="hero-body">
       <h1 class="title">Music</h1>
       <div class="has-text-centered">
-        <b-button type="is-primary" class="is-centered" @click="clickMe"
+        <b-button
+          type="has-background-grey is-primary"
+          class="is-centered"
+          @click="clickMe"
           >Listen to the Free Soundtrack</b-button
         >
       </div>
@@ -26,12 +29,16 @@ export default class Music extends Vue {
 
 <style scoped>
 .bg-image {
-  background-image: url("../assets/bg-music.png");
+  background-image: url("../assets/dirtWithTransition.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-position: center top;
 }
 .title {
   text-align: center;
 }
+/*button {*/
+/*  background-image: url("../assets/button.png");;*/
+/*  background-size: 100% 100%;*/
+/*}*/
 </style>

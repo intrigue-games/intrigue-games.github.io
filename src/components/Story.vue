@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info bg-image">
+  <section class="hero is-medium bg-image">
     <div class="hero-body">
       <div class="anchor" id="story"></div>
       <h1 class="title has-text-centered">Story</h1>
@@ -36,16 +36,14 @@ export default class Story extends Vue {}
 
 <style scoped lang="scss">
 .bg-image {
-  background-image: url("../assets/bg-story.png");
+  background-image: url("../assets/bg-gameplay.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center;
-}
-.title {
-  text-align: center;
+  background-position: top;
+  background-color: #a6843c;
 }
 .image {
   margin: auto;
-  height: 700px;
+  max-height: 500px;
 }
 </style>
