@@ -10,8 +10,10 @@
           <section class="columns is-centered">
             <div class="column">
               <b-image :src="carouselItem.image" class="my-carousel"></b-image>
-              <h1 class="subtitle">{{ carouselItem.title }}</h1>
-              <p class="content">{{ carouselItem.description }}</p>
+              <h1 class="title">{{ carouselItem.title }}</h1>
+              <p class="content has-background-green">
+                {{ carouselItem.description }}
+              </p>
             </div>
           </section>
         </b-carousel-item>

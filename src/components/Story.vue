@@ -13,13 +13,13 @@
           />
         </div>
         <div class="column">
-          <h2 class="subtitle">
+          <p class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel eros
             donec ac odio tempor orci dapibus. A diam sollicitudin tempor id eu
             nisl nunc mi. Arcu dui vivamus arcu felis bibendum. Lacinia quis vel
             eros donec ac.
-          </h2>
+          </p>
         </div>
       </div>
     </div>

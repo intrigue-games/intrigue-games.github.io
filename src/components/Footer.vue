@@ -1,6 +1,6 @@
 <template>
-  <footer class="footer">
-    <div class="content has-text-centered">
+  <footer class="footer has-background-primary">
+    <div class="content has-text-centered has-text-white">
       <p>
         <b>&copy; {{ year() }} Intrigue Games, LLC.</b>
         Trademarks belong to their respective owners. All Rights Reserved.
@@ -21,4 +21,8 @@ export default class Footer extends Vue {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+footer {
+  font-size: 1em;
+}
+</style>

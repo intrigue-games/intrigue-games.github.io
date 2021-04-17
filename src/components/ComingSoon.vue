@@ -1,17 +1,17 @@
 <template>
-  <section class="hero is-info bg-image is-large">
+  <section class="hero bg-image is-large">
     <div class="anchor" id="comingsoon"></div>
     <div class="hero-body">
-      <h1 class="title has-text-centered">Coming Soon!</h1>
+      <h1 class="title has-text-centered has-background-green">Coming Soon!</h1>
       <div class="columns">
         <div class="column is-4 is-offset-4 columns">
-          <div class="column is-5">
+          <div class="column is-5 has-background-green">
             <b-image
               class="image"
               :src="require('@/assets/android.png')"
             ></b-image>
           </div>
-          <div class="column is-5 is-offset-2">
+          <div class="column is-5 is-offset-2 has-background-green">
             <b-image
               class="image"
               :src="require('@/assets/apple.png')"

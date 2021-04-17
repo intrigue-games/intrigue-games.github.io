@@ -21,8 +21,10 @@ import Component from "vue-class-component";
 
 @Component
 export default class Music extends Vue {
+  soundtrackLink = "https://www.youtube.com/watch?v=hDrSy_biKRo";
+
   clickMe() {
-    this.$buefy.notification.open("clicked");
+    window.open(this.soundtrackLink, "_blank");
   }
 }
 </script>

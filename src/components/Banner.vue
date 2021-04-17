@@ -1,14 +1,16 @@
 <template>
-  <section class="hero is-primary is-fullheight bg-image">
+  <section class="hero is-fullheight bg-image">
     <div class="hero-body">
       <div class="columns is-vcentered banner-content">
         <div class="column">
           <div class="columns">
             <div class="column is-one-quarter"></div>
-            <div class="column">
+            <div class="column has-background-green">
               <img src="../assets/XalTitle.png" alt="Xal title" class="image" />
               <!--              <h1 class="title">Xal's Path</h1>-->
-              <h2 class="subtitle">Subtitle</h2>
+              <h2 class="subtitle has-text-black">
+                A story drive clicker game
+              </h2>
               <p class="content">
                 Xal's Path is a story-driven clicker game where you, a stranger,
                 are tasked to help Xal rid the realm of a terrible blight and

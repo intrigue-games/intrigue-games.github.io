@@ -33,13 +33,16 @@ import Story from "@/components/Story.vue";
     Footer,
     Gameplay,
     ComingSoon,
-    Story
-  }
+    Story,
+  },
 })
 export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+.has-background-green {
+  background-color: #84b342;
+}
 .anchor {
   display: block;
   position: relative;
