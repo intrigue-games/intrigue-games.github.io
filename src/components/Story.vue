@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-medium bg-image">
+  <section class="story hero is-medium bg-image">
     <div class="hero-body">
       <div class="anchor" id="story"></div>
       <h1 class="title has-text-centered">Story</h1>

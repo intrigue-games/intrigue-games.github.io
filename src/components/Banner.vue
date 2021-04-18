@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight bg-image">
+  <section class="banner hero is-fullheight bg-image">
     <div class="hero-body">
       <div class="columns is-vcentered banner-content">
         <div class="column">

@@ -1,6 +1,5 @@
 <template>
-  <section class="hero bg-image is-large">
-    <div class="anchor" id="comingsoon"></div>
+  <section class="coming-soon hero bg-image is-large">
     <div class="hero-body">
       <h1 class="title has-text-centered has-background-green">Coming Soon!</h1>
       <div class="columns">

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero bg-image gameplay">
+  <section class="gameplay hero bg-image">
     <div class="hero-body">
       <h1 class="title">Gameplay</h1>
       <b-carousel indicator indicator-mode="click" indicator-style="is-dots">

@@ -1,11 +1,11 @@
 <template>
-  <section class="hero bg-image is-large">
+  <section class="music hero bg-image is-large">
     <div class="anchor" id="music"></div>
     <div class="hero-body">
       <h1 class="title">Music</h1>
       <div class="has-text-centered">
         <b-button
-          type="has-background-grey is-primary"
+          type="has-background-grey is-primary has-text-black"
           class="is-centered"
           @click="clickMe"
           >Listen to the Free Soundtrack</b-button
