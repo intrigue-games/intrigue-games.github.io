@@ -25,33 +25,36 @@
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
-const gameplayclick = require("@/assets/gameplay-click.png");
-const gameplaybuffs = require("@/assets/gameplay-buffs.png");
-const gameplayrewards = require("@/assets/gameplay-rewards.png");
-const gameplayshop = require("@/assets/gameplay-shop.png");
+const gameplayClick = require("@/assets/gameplay-click.png");
+const gameplayBuffs = require("@/assets/gameplay-buffs.png");
+const gameplayRewards = require("@/assets/gameplay-rewards.png");
+const gameplayShop = require("@/assets/gameplay-shop.png");
 
 @Component
 export default class Gameplay extends Vue {
   carouselItems = [
     {
-      title: "Clicking",
-      description: "A description about the clicking mechanic",
-      image: gameplayclick,
+      title: "Spells",
+      description:
+        "Cast spells to raise your influence and help the creatures you encounter.",
+      image: gameplayClick,
     },
     {
       title: "Buffs",
-      description: "A description about the buffs mechanic",
-      image: gameplaybuffs,
+      description: "Use buffs to gain temporary benefits against mana cost.",
+      image: gameplayBuffs,
     },
     {
       title: "Rewards",
-      description: "A description about the Rewards mechanic",
-      image: gameplayrewards,
+      description:
+        "Earn rewards to level up your abilities and gain more influence.",
+      image: gameplayRewards,
     },
     {
       title: "Shop",
-      description: "A description about the Shop mechanic",
-      image: gameplayshop,
+      description:
+        "Purchase Tomes from the shop so that you can earn influence over time.",
+      image: gameplayShop,
     },
   ];
 }
@@ -76,6 +79,10 @@ export default class Gameplay extends Vue {
 </style>
 
 <style lang="scss">
+.gameplay .my-carousel img {
+  padding: 5px;
+  background-color: black;
+}
 .gameplay .my-carousel {
   display: block;
   max-height: 928px;
