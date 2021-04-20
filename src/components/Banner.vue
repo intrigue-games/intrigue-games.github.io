@@ -7,14 +7,13 @@
             <div class="column is-one-quarter"></div>
             <div class="column has-background-green">
               <img src="../assets/XalTitle.png" alt="Xal title" class="image" />
-              <!--              <h1 class="title">Xal's Path</h1>-->
               <h2 class="subtitle has-text-black">
-                A story drive clicker game
+                A story driven clicker game
               </h2>
               <p class="content">
-                Xal's Path is a story-driven clicker game where you, a stranger,
-                are tasked to help Xal rid the realm of a terrible blight and
-                uncover the deceitful truth behind it.
+                Join Xal's Path, where you, the stranger, strive to help Xal rid
+                the realm of a terrible blight and uncover the deceitful truth
+                behind it.
               </p>
             </div>
             <div class="column is-one-quarter"></div>
@@ -37,7 +36,24 @@ import Vue from "vue";
 import Component from "vue-class-component";
 
 @Component
-export default class Banner extends Vue {}
+export default class Banner extends Vue {
+  addedAttribute = false;
+
+  mounted() {
+    this.addTitleToIframeWhenAvailable();
+  }
+
+  addTitleToIframeWhenAvailable() {
+    setInterval(() => {
+      if (this.addedAttribute) return;
+      const iframeElements = document.getElementsByTagName("iframe");
+      if (iframeElements.length) {
+        this.addedAttribute = true;
+        iframeElements[0].setAttribute("title", "Xal's Path Trailer");
+      }
+    }, 100);
+  }
+}
 </script>
 
 <style scoped lang="scss">

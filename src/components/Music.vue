@@ -7,6 +7,7 @@
         <b-button
           type="has-background-grey is-primary has-text-black"
           class="is-centered"
+          size="is-large"
           @click="clickMe"
           >Listen to the Free Soundtrack</b-button
         >
@@ -39,8 +40,4 @@ export default class Music extends Vue {
 .title {
   text-align: center;
 }
-/*button {*/
-/*  background-image: url("../assets/button.png");;*/
-/*  background-size: 100% 100%;*/
-/*}*/
 </style>
