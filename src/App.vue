@@ -14,7 +14,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
 import Component from "vue-class-component";
 import NavBar from "@/components/NavBar.vue";
 import Music from "@/components/Music.vue";
@@ -26,7 +25,6 @@ import Story from "@/components/Story.vue";
 
 @Component({
   components: {
-    HelloWorld,
     NavBar,
     Music,
     Banner,

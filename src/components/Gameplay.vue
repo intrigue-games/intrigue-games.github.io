@@ -9,7 +9,11 @@
         >
           <section class="columns is-centered">
             <div class="column">
-              <b-image :src="carouselItem.image" class="my-carousel"></b-image>
+              <b-image
+                :src="carouselItem.image"
+                class="my-carousel"
+                :alt="carouselItem.title"
+              ></b-image>
               <h1 class="title">{{ carouselItem.title }}</h1>
               <p class="content has-background-green">
                 {{ carouselItem.description }}
@@ -63,9 +67,7 @@ export default class Gameplay extends Vue {
 <style scoped lang="scss">
 .bg-image {
   background-image: url("../assets/River.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center top;
+  background-size: auto 100%;
   background-color: #84b342;
 }
 .content {

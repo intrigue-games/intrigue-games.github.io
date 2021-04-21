@@ -9,11 +9,11 @@
             src="@/assets/logo-crop.png"
         /></b-navbar-item>
         <b-navbar-item href="https://twitter.com/intrigue_games">
-          <b-icon type="is-white" icon="twitter"></b-icon
+          <b-icon type="is-white" icon="twitter" title="Twitter Icon"></b-icon
         ></b-navbar-item>
         <b-navbar-item
           href="https://www.youtube.com/channel/UCQPXkDppOggoio7FFq_dpcg"
-          ><b-icon type="is-white" icon="youtube"></b-icon
+          ><b-icon type="is-white" icon="youtube" title="youtube Icon"></b-icon
         ></b-navbar-item>
       </b-navbar-item>
     </template>

@@ -59,7 +59,7 @@ export default class Banner extends Vue {
 <style scoped lang="scss">
 .bg-image {
   background-image: url("../assets/banner.png");
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 </style>
 

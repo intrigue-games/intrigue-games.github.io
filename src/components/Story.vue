@@ -1,7 +1,6 @@
 <template>
   <section class="story hero is-medium bg-image">
     <div class="hero-body">
-      <div class="anchor" id="story"></div>
       <h1 class="title has-text-centered">Story</h1>
       <div class="columns is-vcentered">
         <div class="column">
@@ -39,9 +38,7 @@ export default class Story extends Vue {}
 <style scoped lang="scss">
 .bg-image {
   background-image: url("../assets/bg-story.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: top;
+  background-size: auto 100%;
   background-color: #a6843c;
 }
 .image {

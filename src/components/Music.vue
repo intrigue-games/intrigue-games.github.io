@@ -33,9 +33,7 @@ export default class Music extends Vue {
 <style scoped>
 .bg-image {
   background-image: url("../assets/dirtWithTransition.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center top;
+  background-size: auto 100%;
 }
 .title {
   text-align: center;
