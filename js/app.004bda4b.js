@@ -86,11 +86,11 @@
   0: function (t, e, a) {
     t.exports = a("cd49");
   },
-  "0a10": function (t, e, a) {},
-  "1df9": function (t, e, a) {
+  "08a5": function (t, e, a) {
     "use strict";
-    a("8f3a");
+    a("64e5");
   },
+  "14b3": function (t, e, a) {},
   "2bd1": function (t, e, a) {},
   3792: function (t, e) {
     t.exports =
@@ -102,34 +102,33 @@
   },
   "49af": function (t, e, a) {},
   "4a87": function (t, e, a) {},
-  "55b3": function (t, e, a) {
-    "use strict";
-    a("85fa");
-  },
   "56ae": function (t, e, a) {
     t.exports = a.p + "img/gameplay-click.2da93062.png";
-  },
-  "5bfb": function (t, e, a) {
-    "use strict";
-    a("0a10");
   },
   "5c0b": function (t, e, a) {
     "use strict";
     a("9c0c");
   },
+  6111: function (t, e, a) {
+    "use strict";
+    a("faec");
+  },
+  "64e5": function (t, e, a) {},
   6993: function (t, e, a) {
     "use strict";
     a("49af");
   },
   "6d0f": function (t, e, a) {},
-  "85fa": function (t, e, a) {},
-  "8f3a": function (t, e, a) {},
   9175: function (t, e, a) {
     t.exports = a.p + "img/gameplay-shop.8263cb09.png";
   },
   "941e": function (t, e, a) {
     "use strict";
     a("4a87");
+  },
+  9688: function (t, e, a) {
+    "use strict";
+    a("14b3");
   },
   "97c1": function (t, e, a) {
     t.exports = a.p + "img/gameplay-buffs.4e7c4c6c.png";
@@ -145,6 +144,7 @@
     "use strict";
     a("6d0f");
   },
+  b101: function (t, e, a) {},
   b107: function (t, e, a) {},
   b22e: function (t, e, a) {
     t.exports = a.p + "img/story-animation.fb19785b.gif";
@@ -336,8 +336,8 @@
     f = Object(r["a"])([u["a"]], f);
     var d = f,
       b = d,
-      h = (a("55b3"), a("2877")),
-      p = Object(h["a"])(b, c, l, !1, null, "c53b29e2", null),
+      h = (a("9688"), a("d5d8"), a("2877")),
+      p = Object(h["a"])(b, c, l, !1, null, "0da2a126", null),
       A = p.exports,
       m = function () {
         var t = this,
@@ -463,9 +463,9 @@
     var k = R,
       Q = k,
       j =
-        (a("1df9"),
+        (a("6111"),
         a("aedd"),
-        Object(h["a"])(Q, I, x, !1, null, "2737cfc3", null)),
+        Object(h["a"])(Q, I, x, !1, null, "3649f8c8", null)),
       O = j.exports,
       T = function () {
         var t = this,
@@ -670,7 +670,7 @@
           return a("div", { staticClass: "column" }, [
             a("p", { staticClass: "content" }, [
               t._v(
-                " Xal's path's story focuses on the concept of relativity and control and how far people will go to fight the natural impermanence of life. Join the druid Xal on his path as the stranger. On your journey, you will travel across different regions and encounter several creatures that span various areas of mythology. On your path, not only will you slowly learn more about Xal, but you will also start to uncover the truth behind his intentions as well as your own. "
+                " Xal's path's story focuses on the concept of relativity and control and how far people will go to fight the natural impermanence of life. Join the druid, Xal, on his path as the stranger. On your journey, you will travel across different regions and encounter several creatures that span various areas of mythology. On your path, not only will you slowly learn more about Xal, but you will also start to uncover the truth behind his intentions as well as your own. "
               ),
             ]),
           ]);
@@ -680,7 +680,7 @@
     it = Object(r["a"])([o["b"]], it);
     var nt = it,
       rt = nt,
-      ot = (a("5bfb"), Object(h["a"])(rt, at, st, !1, null, "c2970ffa", null)),
+      ot = (a("08a5"), Object(h["a"])(rt, at, st, !1, null, "756d65ae", null)),
       ct = ot.exports;
     let lt = class extends s["a"] {};
     lt = Object(r["a"])(
@@ -716,6 +716,10 @@
     "use strict";
     a("e7f9");
   },
+  d5d8: function (t, e, a) {
+    "use strict";
+    a("b101");
+  },
   e00f: function (t, e, a) {
     t.exports = a.p + "img/android.78e96c8e.png";
   },
@@ -724,5 +728,6 @@
     "use strict";
     a("b735");
   },
+  faec: function (t, e, a) {},
 });
-//# sourceMappingURL=app.1af04232.js.map
+//# sourceMappingURL=app.004bda4b.js.map
