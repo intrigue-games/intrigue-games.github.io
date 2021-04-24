@@ -41,6 +41,9 @@ export default class App extends Vue {}
 .has-background-green {
   background-color: #84b342;
 }
+.has-background-brown {
+  background-color: #a6843c;
+}
 .anchor {
   display: block;
   position: relative;

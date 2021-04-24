@@ -11,7 +11,7 @@
           />
         </div>
         <div class="column">
-          <p class="content">
+          <p class="content has-background-brown">
             Xal's path's story focuses on the concept of relativity and control
             and how far people will go to fight the natural impermanence of
             life. Join the druid, Xal, on his path as the stranger. On your

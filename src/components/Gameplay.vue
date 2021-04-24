@@ -1,7 +1,7 @@
 <template>
   <section class="gameplay hero bg-image">
     <div class="hero-body">
-      <h1 class="title">Gameplay</h1>
+      <h1 class="title has-background-green">Gameplay</h1>
       <b-carousel indicator indicator-mode="click" indicator-style="is-dots">
         <b-carousel-item
           v-for="(carouselItem, index) in carouselItems"
@@ -14,7 +14,9 @@
                 class="my-carousel"
                 :alt="carouselItem.title"
               ></b-image>
-              <h1 class="title">{{ carouselItem.title }}</h1>
+              <h1 class="title has-background-green">
+                {{ carouselItem.title }}
+              </h1>
               <p class="content has-background-green">
                 {{ carouselItem.description }}
               </p>
