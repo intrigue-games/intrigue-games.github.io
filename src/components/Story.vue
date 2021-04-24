@@ -16,10 +16,9 @@
             and how far people will go to fight the natural impermanence of
             life. Join the druid, Xal, on his path as the stranger. On your
             journey, you will travel across different regions and encounter
-            several creatures that span various areas of mythology. On your
-            path, not only will you slowly learn more about Xal, but you will
-            also start to uncover the truth behind his intentions as well as
-            your own.
+            several creatures that span various areas of mythology. Not only
+            will you slowly learn more about Xal, but you will also start to
+            uncover the truth behind his intentions as well as your own.
           </p>
         </div>
       </div>
