@@ -35,6 +35,14 @@ $link-visited: $purple;
 $light-border: 1px solid $base-color-light;
 $hr-height: 1px;
 
+/* Navbar */
+div.navbar-menu.is-active {
+  background-color: $purple;
+}
+a.navbar-item.has-text-white:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 /* Aside: Bulma override */
 $menu-item-radius: 0;
 $menu-list-link-padding: $size-base * 0.5 0;

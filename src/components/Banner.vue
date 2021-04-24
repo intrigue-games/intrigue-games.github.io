@@ -61,12 +61,15 @@ export default class Banner extends Vue {
   background-image: url("../assets/banner.png");
   background-size: auto 100%;
 }
+.banner-content {
+  width: 100%;
+}
 </style>
 
 <style lang="scss">
 iframe {
   margin: auto;
   height: 318px;
-  width: 550px;
+  width: 80%;
 }
 </style>
