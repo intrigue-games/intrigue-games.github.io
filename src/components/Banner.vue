@@ -61,8 +61,12 @@ export default class Banner extends Vue {
   background-image: url("../assets/banner.png");
   background-size: auto 100%;
 }
-.banner-content {
-  width: 100%;
+
+//Only apply this to desktop
+@media only screen and (min-width: 768px) {
+  .banner-content {
+    width: 100%;
+  }
 }
 </style>
 

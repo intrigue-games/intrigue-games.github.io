@@ -14,7 +14,7 @@
           <p class="content">
             Xal's path's story focuses on the concept of relativity and control
             and how far people will go to fight the natural impermanence of
-            life. Join the druid Xal on his path as the stranger. On your
+            life. Join the druid, Xal, on his path as the stranger. On your
             journey, you will travel across different regions and encounter
             several creatures that span various areas of mythology. On your
             path, not only will you slowly learn more about Xal, but you will

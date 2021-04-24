@@ -67,3 +67,9 @@ export default class NavBar extends Vue {
   background-color: inherit;
 }
 </style>
+
+<style lang="scss">
+.navbar-brand {
+  align-items: center;
+}
+</style>
