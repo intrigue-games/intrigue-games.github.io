@@ -8,11 +8,15 @@
             alt="Intrigue Games Logo"
             src="@/assets/logo-crop.png"
         /></b-navbar-item>
-        <b-navbar-item href="https://twitter.com/intrigue_games">
+        <b-navbar-item
+          href="https://twitter.com/intrigue_games"
+          target="_blank"
+        >
           <b-icon type="is-white" icon="twitter" title="Twitter Icon"></b-icon
         ></b-navbar-item>
         <b-navbar-item
           href="https://www.youtube.com/channel/UCQPXkDppOggoio7FFq_dpcg"
+          target="_blank"
           ><b-icon type="is-white" icon="youtube" title="youtube Icon"></b-icon
         ></b-navbar-item>
       </b-navbar-item>
@@ -57,6 +61,9 @@ export default class NavBar extends Vue {
   max-height: 40px;
 }
 .navbar.is-primary .navbar-brand > a.navbar-item:hover {
+  background-color: inherit;
+}
+.navbar-item.brand:focus-within {
   background-color: inherit;
 }
 </style>
