@@ -58,7 +58,8 @@ export default class NavBar extends Vue {
 
 <style scoped lang="scss">
 .image {
-  max-height: 40px;
+  max-height: 150px;
+  max-width: 150px;
 }
 .navbar.is-primary .navbar-brand > a.navbar-item:hover {
   background-color: inherit;
