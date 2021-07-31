@@ -9,7 +9,7 @@
           class="is-centered"
           size="is-large"
           @click="clickMe"
-          >Listen to the Free Soundtrack</b-button
+          >Listen to the Soundtrack</b-button
         >
       </div>
     </div>
@@ -22,7 +22,8 @@ import Component from "vue-class-component";
 
 @Component
 export default class Music extends Vue {
-  soundtrackLink = "https://www.youtube.com/watch?v=hDrSy_biKRo";
+  soundtrackLink =
+    "https://songwhip.com/stevenlogan/xals-path-original-game-soundtrack";
 
   clickMe() {
     window.open(this.soundtrackLink, "_blank");
