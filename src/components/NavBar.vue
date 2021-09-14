@@ -31,7 +31,8 @@
       <b-navbar-item
         class="has-text-white"
         @click="scrollIntoView('coming-soon')"
-        >Coming Soon!</b-navbar-item
+        ><span v-if="theGameIsReleased()">Available Now!</span
+        ><span v-else>Coming Soon!</span></b-navbar-item
       >
     </template>
   </b-navbar>
@@ -40,6 +41,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
+import moment from "moment";
 
 @Component
 export default class NavBar extends Vue {
@@ -48,6 +50,15 @@ export default class NavBar extends Vue {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  }
+
+  theGameIsReleased(): boolean {
+    const releaseDate = moment("2021-11-22");
+    const currentDate = moment();
+    return (
+      releaseDate.isSame(currentDate, "day") ||
+      currentDate.isAfter(releaseDate, "day")
+    );
   }
 }
 </script>

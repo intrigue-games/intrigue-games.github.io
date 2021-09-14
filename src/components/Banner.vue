@@ -22,7 +22,7 @@
         <div class="column is-6">
           <video-embed
             class="has-text-centered my-video"
-            src="https://www.youtube.com/watch?v=r0CQO2x3VGY&list=FLm9PjqjdwqIX9b2aiDxIoiA&index=7"
+            src="https://www.youtube.com/watch?v=neJ20HjbNCg"
             css="embed-responsive-21by9"
           ></video-embed>
         </div>
