@@ -16,4 +16,4 @@ git commit -m 'deployment'
 git subtree push --prefix dist origin gh-pages
 
 echo "\xf0\x9f\x8e\x89 Successfully pushed dist contents to gh-pages branch to be deployed!"
-echo "\xF0\x9F\x94\x8D View this at http://www.kevinmlogan.com/vue-a11y"
+echo "\xF0\x9F\x94\x8D View this at https://intrigue-games.com"
