@@ -1,10 +1,7 @@
 <template>
   <section class="coming-soon hero bg-image is-large">
     <div class="hero-body">
-      <h1 v-if="theGameIsReleased()" class="title has-text-centered">
-        Available Now!
-      </h1>
-      <h1 v-else class="title has-text-centered">October 22, 2021</h1>
+      <h1 class="title has-text-centered">Available Now!</h1>
       <div class="columns">
         <div class="column is-4 is-offset-4 columns">
           <div class="column is-5">
