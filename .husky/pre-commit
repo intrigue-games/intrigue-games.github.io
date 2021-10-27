@@ -1,6 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-npx pretty-quick --staged
-
-#TODO: add linting to this as well!
